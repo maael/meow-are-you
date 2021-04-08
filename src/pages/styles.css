@@ -1,3 +1,19 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+.text-gradient {
+  background-clip: text;
+  -webkit-background-clop: text;
+  -webkit-text-fill-color: transparent;
+}
+
+html,
+body,
+#__next {
+  @apply min-h-full pb-5;
+}
+
+body {
+  @apply bg-gradient-to-bl from-yellow-100 via-yellow-300 to-yellow-500 bg-no-repeat;
+}
