@@ -17,3 +17,14 @@ body,
 body {
   @apply bg-gradient-to-bl from-yellow-100 via-yellow-300 to-yellow-500 bg-no-repeat;
 }
+
+.center-col {
+  @apply flex flex-col items-center;
+}
+
+.gradient-text {
+  background-clip: text;
+  -webkit-background-clop: text;
+  -webkit-text-fill-color: transparent;
+  @apply bg-gradient-to-br from-yellow-500 to-yellow-700 font-bold uppercase;
+}
